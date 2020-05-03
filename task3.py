@@ -12,5 +12,8 @@ def test_one_digit():
 def test_same_digits():
     assert diff_digits(3333) == 1
 
-if __name__ == '__main__':
+def main():
     print(diff_digits(177))
+
+if __name__ == '__main__':
+    main()

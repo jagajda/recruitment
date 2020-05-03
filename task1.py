@@ -13,5 +13,8 @@ def test_one_letter():
     mock = 'a'
     assert revert(mock) == mock
 
+def main():
+    print(revert("I see sea shells in sea"))
+
 if __name__== '__main__':
-    print (revert("I see sea shells in sea"))
+    main()

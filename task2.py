@@ -44,5 +44,8 @@ def test_empty():
 def test_one_letter():
     assert translate('c') == '222'
 
-if __name__ == '__main__':
+def main():
     print(translate("Eve has a cat"))
+
+if __name__ == '__main__':
+    main()

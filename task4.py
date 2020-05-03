@@ -12,6 +12,9 @@ def test_negative():
     mock = "Not a palindrome"
     assert check_if_palindrome(mock) == False
 
-if __name__ == '__main__':
+def main():
     print(check_if_palindrome("A b  B a"))
     print(check_if_palindrome("kur Czak"))
+
+if __name__ == '__main__':
+   main() 
